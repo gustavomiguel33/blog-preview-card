@@ -21,7 +21,7 @@ body {
   padding: .7rem;
   width: 360px;
   
-  .img-fluid {
+  .img {
 
     display: flex;
     justify-content: center;
@@ -68,5 +68,11 @@ body {
       font-size: 0.785rem;
       font-weight: bold;
     }
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 300px;
   }
 }

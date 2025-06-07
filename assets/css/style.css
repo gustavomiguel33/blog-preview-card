@@ -20,11 +20,11 @@ body {
   padding: 0.7rem;
   width: 360px;
 }
-.container .img-fluid {
+.container .img {
   display: flex;
   justify-content: center;
 }
-.container .img-fluid img {
+.container .img img {
   border-radius: 0.8rem;
 }
 .container .content .button {
@@ -54,4 +54,10 @@ body {
 .container .footer span {
   font-size: 0.785rem;
   font-weight: bold;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
